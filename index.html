@@ -3,19 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
+        <script src="javascript.js" defer></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <script src="javascript.js"></script>
+        <div class="container">
+            <button id="sc">Scissors</button>
+            <button id="pa">Paper</button>
+            <button id="ro">Rock</button>
+        </div>
+        <div id="result"> Result Here</div>
+        <div class="container">
+        <div >Player Score :<span id="playerScore"></span></div>
+        <div >Computer Score : <span id="computerScore"></span></div>
+        </div>
+        <div id="announce"></div>
     </body>
 </html>
 
 <!-- 
     Start Game
-    play 5 game 
+    
     Player and Computer select rock paper scissors
     if player win
         Player got 1 point
     else
         Computer got 1 point
-    check who got more point => WIN!!
+    check who got 5 point => WIN!!
  -->
